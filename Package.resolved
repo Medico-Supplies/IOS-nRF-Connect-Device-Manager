@@ -3,29 +3,29 @@
     "pins": [
       {
         "package": "iOS-BLE-Library",
-        "repositoryURL": "https://github.com/NordicSemiconductor/IOS-BLE-Library",
+        "repositoryURL": "https://github.com/nordicsemi/IOS-BLE-Library",
         "state": {
           "branch": null,
-          "revision": "f610daf7cdb1b0e1a5eaac19917db906221b8102",
-          "version": "0.4.4"
+          "revision": "4f3e4987f41e0558c6fdc1e8407eb92c59ae0eff",
+          "version": "0.4.5"
         }
       },
       {
         "package": "iOSCommonLibraries",
-        "repositoryURL": "https://github.com/NordicPlayground/IOS-Common-Libraries",
+        "repositoryURL": "https://github.com/nordicsemi/IOS-Common-Libraries",
         "state": {
           "branch": null,
-          "revision": "5c554c47e51dab07914d0320897f3db19daa38d7",
-          "version": "0.2.0"
+          "revision": "72bfd8c35274d89de4276efe12386d13d87921cc",
+          "version": "0.2.4"
         }
       },
       {
         "package": "CoreBluetoothMock",
-        "repositoryURL": "https://github.com/NordicSemiconductor/IOS-CoreBluetooth-Mock.git",
+        "repositoryURL": "https://github.com/nordicsemi/IOS-CoreBluetooth-Mock.git",
         "state": {
           "branch": null,
-          "revision": "13f09628c2de7f3fd5703516c4f5650e063ddb6c",
-          "version": "1.0.3"
+          "revision": "5748c9e8b1750e0d7bc09243c099ff618f211cdf",
+          "version": "1.0.6"
         }
       },
       {
@@ -33,8 +33,8 @@
         "repositoryURL": "https://github.com/valpackett/SwiftCBOR.git",
         "state": {
           "branch": null,
-          "revision": "04ccff117f6549121d5721ec84fdf0162122b90e",
-          "version": "0.5.0"
+          "revision": "fd929a6d8f7651ce0f63fc99397fd5762358cc29",
+          "version": "0.6.0"
         }
       },
       {
@@ -42,8 +42,8 @@
         "repositoryURL": "https://github.com/weichsel/ZIPFoundation.git",
         "state": {
           "branch": null,
-          "revision": "02b6abe5f6eef7e3cbd5f247c5cc24e246efcfe0",
-          "version": "0.9.19"
+          "revision": "22787ffb59de99e5dc1fbfe80b19c97a904ad48d",
+          "version": "0.9.20"
         }
       }
     ]
