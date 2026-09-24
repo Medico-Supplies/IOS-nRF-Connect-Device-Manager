@@ -21,7 +21,7 @@ let package = Package(
             .exact("0.6.0")
         ),
         .package(
-            url: "https://github.com/weichsel/ZIPFoundation.git",
+            url: "https://github.com/Medico-Supplies/ZIPFoundation",
             .exact("0.9.20")
         ),
         .package(
