@@ -17,7 +17,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/valpackett/SwiftCBOR.git",
+            url: "https://github.com/Medico-Supplies/SwiftCBOR.git",
             .exact("0.6.0")
         ),
         .package(
@@ -25,12 +25,12 @@ let package = Package(
             .exact("0.9.20")
         ),
         .package(
-            url: "https://github.com/nordicsemi/IOS-BLE-Library",
+            url: "https://github.com/Medico-Supplies/IOS-BLE-Library",
             .exact("0.4.5")
         ),
         .package(
-            url: "https://github.com/nordicsemi/IOS-Common-Libraries",
-            .exact("0.2.4")
+            url: "https://github.com/Medico-Supplies/IOS-Common-Libraries",
+            .exact("0.2.5") // change to 0.2.4 if build has errors with swift version features
         )
     ],
     targets: [

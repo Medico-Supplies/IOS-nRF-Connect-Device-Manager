@@ -3,7 +3,7 @@
     "pins": [
       {
         "package": "iOS-BLE-Library",
-        "repositoryURL": "https://github.com/nordicsemi/IOS-BLE-Library",
+        "repositoryURL": "https://github.com/Medico-Supplies/IOS-BLE-Library",
         "state": {
           "branch": null,
           "revision": "4f3e4987f41e0558c6fdc1e8407eb92c59ae0eff",
@@ -12,11 +12,11 @@
       },
       {
         "package": "iOSCommonLibraries",
-        "repositoryURL": "https://github.com/nordicsemi/IOS-Common-Libraries",
+        "repositoryURL": "https://github.com/Medico-Supplies/IOS-Common-Libraries",
         "state": {
           "branch": null,
-          "revision": "72bfd8c35274d89de4276efe12386d13d87921cc",
-          "version": "0.2.4"
+          "revision": "48a940e482828798d4fd71228c03e98822efe8f3",
+          "version": "0.2.5"
         }
       },
       {
@@ -30,19 +30,19 @@
       },
       {
         "package": "SwiftCBOR",
-        "repositoryURL": "https://github.com/valpackett/SwiftCBOR.git",
+        "repositoryURL": "https://github.com/Medico-Supplies/SwiftCBOR.git",
         "state": {
           "branch": null,
-          "revision": "fd929a6d8f7651ce0f63fc99397fd5762358cc29",
+          "revision": "08606545e2c67e4ab65c7c7574a8758ffa2b365e",
           "version": "0.6.0"
         }
       },
       {
         "package": "ZIPFoundation",
-        "repositoryURL": "https://github.com/weichsel/ZIPFoundation.git",
+        "repositoryURL": "https://github.com/Medico-Supplies/ZIPFoundation",
         "state": {
           "branch": null,
-          "revision": "22787ffb59de99e5dc1fbfe80b19c97a904ad48d",
+          "revision": "e7a17d57c583067eaa6659cd6d9521265b7664e9",
           "version": "0.9.20"
         }
       }

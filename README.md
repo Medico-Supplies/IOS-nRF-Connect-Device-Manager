@@ -14,6 +14,17 @@
 [![GitHub forks](https://img.shields.io/github/forks/nordicsemi/IOS-nRF-Connect-Device-Manager)](https://github.com/nordicsemi/IOS-nRF-Connect-Device-Manager/members)
 [![GitHub contributors](https://img.shields.io/github/contributors/nordicsemi/IOS-nRF-Connect-Device-Manager)](https://github.com/nordicsemi/IOS-nRF-Connect-Device-Manager/graphs/contributors)
 
+### Update - Build
+
+Run a test build using, also note the dependencies are fixed
+
+```sh
+# use xcodebuild -list to show the schemes
+xcodebuild build-for-testing \
+  -scheme iOS-BLE-Library \
+  -destination 'platform=iOS Simulator,name=iPhone 17'
+```
+
 nRF Connect Device Manager library is compatible with [McuManager (or McuMgr for short)](https://docs.zephyrproject.org/3.2.0/services/device_mgmt/mcumgr.html#overview) and [SUIT (shorthand for Software Update for the Internet of Things)](https://docs.nordicsemi.com/bundle/ncs-2.9.2/page/nrf/libraries/dfu/suit_dfu.html). McuManager is a management subsystem supported by [nRF Connect SDK](https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html), [Zephyr](https://docs.zephyrproject.org/3.2.0/introduction/index.html) and Apache Mynewt. McuManager relies on its own [MCUboot](https://docs.mcuboot.com/) bootloader for secure bootstrapping after a firmware update and, uses the [Simple Management Protocol, or SMP](https://docs.zephyrproject.org/3.2.0/services/device_mgmt/smp_protocol.html), for communication over Bluetooth LE. The SMP Transport definition for Bluetooth Low Energy, which this library implements, [can be found here](https://docs.zephyrproject.org/latest/services/device_mgmt/smp_transport.html).
 
 SUIT and McuManager are related, but not interchangeable. SUIT relies on its own bootloader, but communicates over the SMP Service. Additionally, SUIT supports some functionalities from McuManager, but is not guaranteed to do so. It's best to always check if a McuManager feature is supported by sending the request, rather than assuming it is.
