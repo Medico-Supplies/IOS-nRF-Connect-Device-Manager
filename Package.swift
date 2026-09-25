@@ -18,19 +18,19 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/Medico-Supplies/SwiftCBOR.git",
-            .exact("0.6.0")
+            .exact("0.6.1")
         ),
         .package(
             url: "https://github.com/Medico-Supplies/ZIPFoundation",
-            .exact("0.9.20")
+            .exact("0.9.21")
         ),
         .package(
             url: "https://github.com/Medico-Supplies/IOS-BLE-Library",
-            .exact("0.4.5")
+            .exact("0.4.7")
         ),
         .package(
             url: "https://github.com/Medico-Supplies/IOS-Common-Libraries",
-            .exact("0.2.5") // change to 0.2.4 if build has errors with swift version features
+            .exact("0.2.6") // change to 0.2.4 if build has errors with swift version features
         )
     ],
     targets: [
